@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'GT Haptik';
+  font-style: normal;
+  font-weight: 400;
+  src: local('GT Haptik Trial Rg'), url('/fonts/GT-Haptik/GT-Haptik-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'GT Haptik';
+  font-style: normal;
+  font-weight: 500;
+  src: local('GT Haptik Trial Md'), url('/fonts/GT-Haptik/GT-Haptik-medium.woff2') format('woff2');
+}
+
+
 /* CSS RESET */
 *,
 *::before,
@@ -266,4 +281,30 @@ img {
 
 .ProductCard__Description {
   margin-bottom: 3.2rem;
+}
+
+#update-available {
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  padding: 8px 2rem;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #191919;
+  display: flex;
+  align-items: baseline;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+#update-available button {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  padding: 0;
+  margin-left: 2rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #FDD835;
 }
