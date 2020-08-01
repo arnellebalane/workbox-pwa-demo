@@ -57,6 +57,10 @@ img {
   padding: 0 2.4rem;
 }
 
+.u-Hidden {
+  display: none !important;
+}
+
 .u-Grid {
   display: grid;
   grid-template-columns: 0.4fr 0.6fr;
@@ -307,4 +311,13 @@ img {
   font-weight: 500;
   text-transform: uppercase;
   color: #FDD835;
+}
+
+#offline {
+  padding: 3.2rem;
+  text-align: center;
+}
+
+#offline p {
+  font-size: 2rem;
 }

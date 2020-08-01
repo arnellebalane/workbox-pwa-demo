@@ -9,3 +9,11 @@ if (navigator.serviceWorker) {
     navigator.serviceWorker.register('/sw.js');
   });
 }
+
+document.querySelector('#update-available button').addEventListener('click', () => {
+  location.reload();
+});
+
+function displayUpdateAvailableUI() {
+  document.querySelector('#update-available').classList.remove('u-Hidden');
+}
